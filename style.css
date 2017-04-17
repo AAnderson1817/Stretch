@@ -1,5 +1,7 @@
 .container {
-  max-width: 928px;
+  margin: 0 auto;
+  padding:5px;
+  max-width: 100%;
 }
 
 h1, h2, p, a {
@@ -20,7 +22,7 @@ a {
 .main {
   height: 550px;
   padding-top: 55px;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/shutterbugg/intro.jpg);
+  background: url("intro.jpg");
 }
 
 .main p {
