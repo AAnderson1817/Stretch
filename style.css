@@ -7,6 +7,7 @@ body{
   font-family: 'Chicle', cursive;
   font-size: 2.4vw;
   color:black;
+  background:rgb(15,15,15);
 }
 p, li {
 }
@@ -73,7 +74,7 @@ span{
 }
 
 .section .row {
-  background: rgba(225,225,225,.5);
+  background: rgba(225,225,225,.4);
   padding-top: 50px;
   padding-bottom: 50px;
   border-bottom: 1px solid #dbdbdb;
@@ -85,7 +86,8 @@ span{
 .store {
   text-align: center;
   border-bottom: 0px;
-  padding-bottom:100px
+  padding-bottom:100px;
+  color:white;
 }
 
 .footer {
@@ -169,6 +171,8 @@ span{
 }
 #footer{
   text-align:center;
+  background:rgb(15,15,15);
+  color:white;
 }
 btn:hover {
     /* border glow effect on hover */
