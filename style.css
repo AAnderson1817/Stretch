@@ -5,9 +5,9 @@
 }
 body{
   font-family: 'Chicle', cursive;
+  font-size: 2.4vw;
 }
-p, a {
-  font-family: 'Droid Serif', serif;
+p, li {
 }
 
 h1 {
@@ -17,11 +17,13 @@ h1 {
 }
 
 a {
-  font-size:18px;
+  font-size:2vw;
   font-weight: 200;
 }
 p{
   font-size:18px;
+}
+button{
 }
 
 video#bgvid{
@@ -152,6 +154,10 @@ span{
     font-size: 5.4vw; /**responsive size**/
 }
 
+#navopts{
+  font-size: 2vw;
+  padding-top: .25em;
+}
 
 @media (max-width: 500px) {
   .col-md-6 img {
