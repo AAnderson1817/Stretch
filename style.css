@@ -103,7 +103,10 @@ span{
 
 .footer li {
   color: #999;
-  font-weight: 600;
+  font-weight: 500;
+}
+.footer a{
+  font-size:1.8vw;
 }
 
 .vidbtn {
