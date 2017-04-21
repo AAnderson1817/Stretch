@@ -3,9 +3,11 @@
   padding:5px;
   max-width: 100%;
 }
-
-h1, h2, p, a {
-  font-family: 'Helvetica Neue Thin', 'HelveticaNeue-Thin', 'helvetica neue', helvetica, arial, 'lucida grande', sans-serif;
+body{
+  font-family: 'Chicle', cursive;
+}
+p, a {
+  font-family: 'Droid Serif', serif;
 }
 
 h1 {
@@ -30,6 +32,12 @@ min-width:100%;
 width:auto;
 height:auto;
 z-index:-1;
+}
+figcaption{
+  font-family: 'Chicle', cursive;
+}
+span{
+  font-size: 2.6vw;
 }
 
 .main {
