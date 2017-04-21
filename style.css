@@ -6,6 +6,7 @@
 body{
   font-family: 'Chicle', cursive;
   font-size: 2.4vw;
+  color:black;
 }
 p, li {
 }
@@ -61,11 +62,18 @@ span{
   text-align:center;
 }
 
-#grey{
-  background-color: #f3f3f3;
+#plat{
+  background-image:url(bg2.jpg);
+}
+#green{
+  background-image:url(bg3.jpg);
+}
+#white{
+  background-image:url(bgflip.jpg);
 }
 
 .section .row {
+  background: rgba(225,225,225,.5);
   padding-top: 50px;
   padding-bottom: 50px;
   border-bottom: 1px solid #dbdbdb;
